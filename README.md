@@ -10,6 +10,7 @@ The analysis began with the Bank Marketing dataset (bank-additional.csv), which 
 # Model Training and Evaluation
 A Decision Tree Classifier was chosen for the classification task. The model was trained using the entropy criterion for calculating information gain and was intentionally limited to a maximum depth of 5 (max_depth=5) to prevent overfitting and maintain interpretability .
 The model's performance was assessed on the test set, yielding an overall Accuracy of 0.9029 (approximately 90.29%).
+
 #The Classification Report provided a more granular view of performance, particularly for the positive class (Class 1: subscribed 'yes'):
 Precision (Class 1): 0.58 
 Recall (Class 1): 0.48 
